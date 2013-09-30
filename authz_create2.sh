@@ -12,7 +12,7 @@ gn=$(sjoin.sh "_" $grpline)
 
 
 echo "
- [$assign:/branches/$gn]
- @ta=r
- @${gn}=rw
+[$assign:/branches/$gn]
+@ta=r
+@${gn}=rw
 "

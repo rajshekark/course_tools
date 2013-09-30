@@ -8,6 +8,6 @@ grpline="$@"
 gn=$(sjoin.sh "_" $grpline)
 
 echo "
- ${gn}=$(sjoin.sh "," $grpline)
+${gn}=$(sjoin.sh "," $grpline)
 
 "
